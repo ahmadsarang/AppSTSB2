@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/header_details"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:background="@color/emas"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/titleLeaveHisDet"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Leave History Details"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/hitam"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/header_details"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+
+        android:orientation="vertical"
+
+        android:layout_above="@+id/linearLayout2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ttvTodayDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Application Date"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/kelabu_gelap"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTodayDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:text="TextView"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/view14"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+
+                android:background="@color/kelabu" />
+
+            <TextView
+                android:id="@+id/ttvFromDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Apply Date (From)"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/kelabu_gelap"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFromDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:text="TextView"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/view13"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+
+                android:background="@color/kelabu" />
+
+            <TextView
+                android:id="@+id/ttvToDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Apply Date (To)"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/kelabu_gelap"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvToDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:text="TextView"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/view12"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@color/kelabu" />
+
+            <TextView
+                android:id="@+id/ttvTotalDays"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Total Days"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/kelabu_gelap"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTotalDays"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:text="TextView"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/view11"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+
+                android:background="@color/kelabu" />
+
+            <TextView
+                android:id="@+id/ttvReasons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Reasons"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/kelabu_gelap"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvReasons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:text="TextView"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/view10"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+
+                android:background="@color/kelabu" />
+
+            <TextView
+                android:id="@+id/ttvTypeOfLeave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Type Of Leave"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/kelabu_gelap"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTypeOfLeave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:text="TextView"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/view16"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+
+                android:background="@color/kelabu" />
+
+            <TextView
+                android:id="@+id/ttvAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Address"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/kelabu_gelap"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:text="TextView"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/view17"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+
+                android:background="@color/kelabu" />
+
+            <TextView
+                android:id="@+id/ttvContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Contact No."
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/kelabu_gelap"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:text="TextView"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+
+        <Button
+            android:id="@+id/btnEditLeave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/oren"
+            android:onClick="editLeave"
+            android:text="EDIT LEAVE"
+            android:textColor="@color/hitam"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

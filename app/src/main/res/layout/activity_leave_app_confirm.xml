@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_leave_app_confirm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="my.com.softlabs.appstsb.LeaveAppConfirm"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_above="@+id/button2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ttvStaffID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Staff IC Number"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/kelabu_gelap"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvStaffID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:textAlignment="textStart"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/view14"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+
+                android:background="@color/kelabu" />
+
+            <TextView
+                android:id="@+id/ttodayDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Date Of Application"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/kelabu_gelap"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/todayDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:textAlignment="textStart"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/view13"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+
+                android:background="@color/kelabu" />
+
+            <TextView
+                android:id="@+id/tfromLeave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Leave Form"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/kelabu_gelap"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fromLeave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:textAlignment="textStart"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/view12"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@color/kelabu" />
+
+            <TextView
+                android:id="@+id/ttoLeave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Leave To"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/kelabu_gelap"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/toLeave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:textAlignment="textStart"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/view11"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+
+                android:background="@color/kelabu" />
+
+            <TextView
+                android:id="@+id/tdayTot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Total Days"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/kelabu_gelap"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dayTot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:textAlignment="textStart"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/view10"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+
+                android:background="@color/kelabu" />
+
+            <TextView
+                android:id="@+id/tremarksConf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Type Of Leave"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/kelabu_gelap"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/remarksConf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:textAlignment="textStart"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/view16"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+
+                android:background="@color/kelabu" />
+
+            <TextView
+                android:id="@+id/treasonConf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Reasons"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/kelabu_gelap"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/reasonConf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:textAlignment="textStart"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+
+                android:layout_weight="1"
+                android:background="@color/kelabu" />
+
+            <TextView
+                android:id="@+id/ttvAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Contact Address"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/kelabu_gelap"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/view17"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+
+                android:background="@color/kelabu" />
+
+            <TextView
+                android:id="@+id/ttvContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Contact No."
+                android:textAlignment="textStart"
+                android:textAllCaps="true"
+                android:textColor="@color/kelabu_gelap"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:textAlignment="textStart"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:background="@color/oren"
+        android:onClick="applyLeave"
+        android:text="CONFIRM" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="@color/emas"
+        android:id="@+id/linearLayout5">
+
+        <TextView
+            android:id="@+id/titleLeaveConf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="LEAVE CONFIRMATION"
+            android:textAlignment="center"
+            android:textColor="@color/hitam"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

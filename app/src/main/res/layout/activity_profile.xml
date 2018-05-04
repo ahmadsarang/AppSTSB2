@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="my.com.softlabs.appstsb.ProfileActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/headerbg"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/emas"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:elevation="15dp"
+            android:scaleType="centerCrop"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp" />
+
+        <LinearLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/headerbg"
+            android:background="@color/kuning"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:paddingBottom="24dp">
+
+            <TextView
+                android:id="@+id/tvStaffName"
+
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="76dp"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textColor="@color/biru_gelap"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDesig"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tvStaffName"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@color/hitam"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/profile_layout"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/tvStaffID_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Staff ID"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="true"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvStaffID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="25dp"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/biru"
+                    android:textSize="20sp" />
+
+                <View
+                    android:id="@+id/view29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+
+                    android:background="@color/kelabu" />
+
+                <TextView
+
+                    android:id="@+id/tvIC_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+
+                    android:clickable="true"
+                    android:gravity="center"
+
+                    android:text="IC Number"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="true"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvIC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="25dp"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/biru"
+                    android:textSize="20sp" />
+
+                <View
+                    android:id="@+id/view31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+
+                    android:background="@color/kelabu" />
+
+                <TextView
+
+                    android:id="@+id/tvConfirm_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Confirmation Year"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="true"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvConfirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="25dp"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/biru"
+                    android:textSize="20sp" />
+
+                <View
+                    android:id="@+id/view39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+
+                    android:background="@color/kelabu" />
+
+                <TextView
+
+                    android:id="@+id/tvGender_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:layout_marginTop="10dp"
+
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Gender"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="true"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvGender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="25dp"
+                    android:layout_marginTop="10dp"
+
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/biru"
+                    android:textSize="20sp" />
+
+                <View
+                    android:id="@+id/view41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+
+                    android:background="@color/kelabu" />
+
+                <TextView
+
+                    android:id="@+id/tvAddress_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="Address"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="true"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:id="@+id/tvAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="25dp"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/biru"
+                    android:textSize="20sp" />
+
+                <View
+                    android:id="@+id/view43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+
+                    android:background="@color/kelabu" />
+
+                <TextView
+                    android:id="@+id/tvContact_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+
+                    android:gravity="center"
+
+                    android:text="Contact No."
+                    android:textAlignment="textStart"
+                    android:textAllCaps="true"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="25dp"
+                    android:gravity="center"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/biru"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="15dp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

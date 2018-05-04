@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="my.com.softlabs.appstsb.LeaveApplicationActivity">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/emas"
+            android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/title_leave_app"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Leave Application"
+                    android:textAllCaps="true"
+                    android:textColor="@color/hitam"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_above="@+id/linearLayout3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ttvbal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Leave Balance"
+                            android:textAllCaps="true"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvLeaveBal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:paddingLeft="25dp"
+                            android:textColor="@color/biru_gelap"
+                            android:textSize="20sp" />
+
+                        <View
+                            android:id="@+id/view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+
+                            android:background="@color/kelabu" />
+
+                        <TextView
+                            android:id="@+id/ttvTodayDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Date/Time"
+                            android:textAllCaps="true"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvTodayDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:paddingLeft="25dp"
+                            android:textColor="@color/biru_gelap"
+                            android:textSize="20sp" />
+
+                        <View
+                            android:id="@+id/view2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+
+                            android:background="@color/kelabu" />
+
+                        <TextView
+                            android:id="@+id/ttvFromDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Leave Apply (From)"
+                            android:textAllCaps="true"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvFromDate"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:hint="Select Here"
+                                    android:paddingLeft="25dp"
+                                    android:textColor="@color/biru_gelap"
+                                    android:textSize="20sp" />
+
+                                <Button
+                                    android:id="@+id/btnFromDate"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignBottom="@+id/tvFromDate"
+                                    android:background="@null" />
+
+                        </RelativeLayout>
+
+                        <View
+                            android:id="@+id/view3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+
+                            android:background="@color/kelabu" />
+
+                        <TextView
+                            android:id="@+id/ttvToDate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Leave Apply (To)"
+                            android:textAllCaps="true"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/tvToDate"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:hint="Select Here"
+                                    android:paddingLeft="25dp"
+                                    android:textColor="@color/biru_gelap"
+                                    android:textSize="20sp" />
+
+                                <Button
+                                    android:id="@+id/btnToDate"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignBottom="@+id/tvToDate"
+                                    android:background="@null" />
+
+                        </RelativeLayout>
+
+                        <View
+                            android:id="@+id/view7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+
+                            android:background="@color/kelabu" />
+
+                        <TextView
+                            android:id="@+id/ttvTotalDays"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Total Days"
+                            android:textAllCaps="true"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tvTotalDays"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:paddingLeft="25dp"
+                            android:textColor="@color/biru_gelap"
+                            android:textSize="20sp" />
+
+                        <View
+                            android:id="@+id/view6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+
+                            android:background="@color/kelabu" />
+
+                        <TextView
+                            android:id="@+id/trgHalf"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Half Day?"
+                            android:textAllCaps="true"
+                            android:textStyle="bold" />
+
+                        <RadioGroup
+                            android:id="@+id/rgHalf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:paddingLeft="25dp"
+                            android:onClick="rbclick"
+                            >
+
+                                <RadioButton
+                                    android:id="@+id/rbYesHalf"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@null"
+                                    android:text="Yes"
+                                    android:textAllCaps="true"
+                                    android:textSize="10sp"
+                                    android:textStyle="bold"
+                                    android:onClick="rbclick"/>
+
+
+                                <RadioButton
+                                    android:id="@+id/rbNoHalf"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@null"
+                                    android:text="No"
+                                    android:textAllCaps="true"
+                                    android:textSize="10sp"
+                                    android:textStyle="bold"
+                                    android:onClick="rbclick"/>
+                        </RadioGroup>
+
+                        <View
+                            android:id="@+id/view4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+
+                            android:background="@color/kelabu" />
+
+                        <TextView
+                            android:id="@+id/tSpinTOL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Type Of Leave"
+                            android:textAllCaps="true"
+                            android:textStyle="bold" />
+
+                        <Spinner
+                            android:id="@+id/spinnerTOL"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="10dp"/>
+
+                        <View
+                            android:id="@+id/view8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+
+                            android:background="@color/kelabu" />
+
+                        <TextView
+                            android:id="@+id/tetReasons"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Reasons"
+                            android:textAllCaps="true"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/etReasons"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:hint="Insert Your Reasons Here!"
+                            android:textAlignment="center"
+                            android:textColor="@color/biru_gelap"
+                            android:textSize="20sp" />
+
+                        <View
+                            android:id="@+id/view9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+
+                            android:background="@color/kelabu" />
+
+                        <TextView
+                            android:id="@+id/tetAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Contact Address (On Leave)"
+                            android:textAllCaps="true"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/etAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Insert Your Contact Address Here!"
+                            android:textAlignment="center"
+                            android:textColor="@color/biru_gelap"
+                            android:textSize="20sp" />
+
+                        <View
+                            android:id="@+id/view15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+
+                            android:background="@color/kelabu" />
+
+                        <TextView
+                            android:id="@+id/tetNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Contact Number (On Leave)"
+                            android:textAllCaps="true"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/etNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Insert Your Contact Number Here!"
+                            android:inputType="number"
+                            android:textAlignment="center"
+                            android:textColor="@color/biru_gelap"
+                            android:textSize="20sp" />
+
+                </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+
+            android:orientation="horizontal"
+            tools:layout_gravity="bottom"
+            android:id="@+id/linearLayout3">
+
+                <Button
+                    android:id="@+id/btnApplyLeaveApp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/oren"
+                    android:onClick="applyLeave"
+                    android:text="Apply"
+                    android:textColor="@color/hitam"
+                    android:textStyle="bold" />
+        </LinearLayout>
+
+</RelativeLayout>

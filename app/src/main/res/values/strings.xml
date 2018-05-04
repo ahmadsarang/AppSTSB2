@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AppSTSB</string>
+    <string-array name="type_of_leave">
+        <item>Annual</item>
+        <item>Unpaid</item>
+        <item>Matrimonial</item>
+        <item>Compassionate</item>
+        <item>Maternity/Paternity</item>
+        <item>Replacement</item>
+    </string-array>
+    <string-array name="approval_list_admin">
+        <item>Select Here</item>
+        <item>Approved</item>
+        <item>Not Approved</item>
+        <item>Recommended</item>
+        <item>Not Recommended</item>
+    </string-array>
+    <string-array name="approval_list_manager">
+        <item>Select Here</item>
+        <item>Recommended</item>
+        <item>Not Recommended</item>
+    </string-array>
+    <string-array name="approval_list_managers_value">
+        <item>Select Here</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="approval_list_admin_value">
+        <item>Select Here</item>
+        <item>4</item>
+        <item>5</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
